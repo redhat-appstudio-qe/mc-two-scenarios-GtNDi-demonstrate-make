@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-rhtap-devfile-multi-component-fmtp
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-qnod-tenant/mc-two-scenarios/devfile-sample-python-basic-rhtap-devfile-multi-component-fmtp@sha256:1be7baecf0bee2328328d6b865726e2223d9a07629440b488595a02825921abc
         name: my-python
         ports:
         - containerPort: 8081
